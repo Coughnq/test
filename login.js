@@ -12,6 +12,6 @@ document.getElementById('login-form').addEventListener('submit', async (event) =
         alert('Login failed');
     } else {
         localStorage.setItem('supabase_auth_token', session.access_token); // Store token
-        window.location.href = 'https://we-are-not-interested.netlify.app'; // Redirect to secure page
+        window.location.href = 'https://secure-intelliquinte.netlify.app'; // Redirect to secure page
     }
 });
